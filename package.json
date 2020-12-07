@@ -1,8 +1,8 @@
 {
-  "name": "planing-poker-draft",
+  "name": "ploker",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "The planning poker game for a scrum estimations.",
+  "keywords": ["planning", "poker", "game", "scrum", "agile"],
   "main": "src/index.js",
   "dependencies": {
     "react": "17.0.0",
@@ -11,6 +11,7 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
+    "node-sass": "^4.0.0",
     "typescript": "3.8.3"
   },
   "scripts": {
@@ -19,5 +20,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
